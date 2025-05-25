@@ -1,8 +1,25 @@
 <style type="text/css">
 
+    :root {
+      --text: #000;
+      --bg: #fff;
+    }
+
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #fff;
+        --bg: #121212;
+      }
+    }
+
+
     html {
         width: 50%;
         margin: auto;
+        background-color: var(--bg);
+        color: var(--text);
+
     }
 
     div {
@@ -27,7 +44,7 @@
 </style>
 
 <head>
-      <meta property="og:url" content="https://nibirsan.org/search" />
+      <meta property="og:url" content="https://nibirsan.org/search/" />
       <meta property="og:type" content="search engine" />
       <meta property="og:title" content="nibir's custom search" />
       <meta property="og:site_name" content="nibir's custom search" />
@@ -45,10 +62,9 @@
       <meta name="mobile-web-app-capable" content="yes">
       <meta http-equiv="cleartype" content="on">
       
-      <link rel="shortcut icon" href="http://domain.com/favicon.png" type="image/png" />
-      <link rel="canonical" href="http://domain.com" />
-      <link rel="shortlink" href="http://domain.com" />
-      <link rel="publisher" href="http://osa05.it" />
+      <link rel="canonical" href="https://nibirsan.org" />
+      <link rel="shortlink" href="https://nibirsan.org/search/" />
+      <link rel="publisher" href="https://nibirsan.org" />
       <title>nibir's custom search</title>
 </head>
 
